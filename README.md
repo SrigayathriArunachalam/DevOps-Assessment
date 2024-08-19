@@ -1,3 +1,4 @@
+### Notification Service with Node.js on Azure
 ### 1.	Architectural Overview
 o	Azure App Service
 o	Azure SQL Database
@@ -58,8 +59,6 @@ Components:
 4.	After creating the pipeline, Azure gives a default yaml template in that we can edit with customisations.
 ### Build pipeline code:
 o	azure-pipelines.yml:
-yaml
-Copy code
 trigger:
   - main
 
